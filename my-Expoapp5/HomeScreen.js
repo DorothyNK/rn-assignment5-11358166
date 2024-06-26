@@ -9,15 +9,18 @@ import SettingsScreen from './SettingsScreen'
 
 const HomeScreen = () => {
   return (
+   
     <ScrollView style={styles.container}>
-      <Header />
+      <Header/>
       <Mastercard/>
       <Buttons/>
       <Transactions />
       <BottomNav />
       <SettingsScreen/>
-    
     </ScrollView>
+
+   
+    
   );
 };
 

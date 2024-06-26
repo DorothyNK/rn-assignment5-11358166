@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingVertical: 15,
     backgroundColor: '#fff', 
+    
   
   },
 
@@ -53,7 +54,11 @@ const styles = StyleSheet.create({
     height: 39, 
     alignItems:'center',
     
+    
   },
+
+
+  
 
 
   text: {
@@ -63,6 +68,9 @@ const styles = StyleSheet.create({
     fontSize: 15,
   
   },
+
+
+ 
 
 
 });

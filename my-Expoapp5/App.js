@@ -1,17 +1,22 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
+
 import HomeScreen from './HomeScreen';
 
 
-
 const App = () => {
-  return (
-    <SafeAreaView style={styles.container}>
-      <HomeScreen />
+
+  return ( 
+    
+    <SafeAreaView style={styles.container}>  
+      <HomeScreen /> 
     </SafeAreaView>
 
   );
 };
+  
+  
+
 
 const styles = StyleSheet.create({
   container: {
@@ -20,6 +25,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     backgroundColor: '#fff',
   },
+
 });
+  
 
 export default App;

@@ -41,7 +41,7 @@ const Transactions = () => {
         <View style={styles.amountsColumn}>
           <Text style={styles.amountText}>-$5,99</Text>
           <Text style={styles.amountText}>-$12,99</Text>
-          <Text style={styles.amountText}>-$300</Text>
+          <Text style={styles.amountTextt}>-$300</Text>
           <Text style={styles.amountText}>-$ 88</Text>
         </View>
       </View>
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
   sellAllText: {
     fontSize: 23,
-    color:'#1e90ff ',
+    color: 'dodgerblue',
     fontWeight:'bold',
     
   },
@@ -162,6 +162,13 @@ const styles = StyleSheet.create({
     fontWeight:'bold',
   },
 
+
+  amountTextt: {
+    fontSize: 22,
+    marginBottom: 20,
+    fontWeight:'bold',
+    color:'dodgerblue',
+  },
 
 });
 
