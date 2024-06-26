@@ -1,4 +1,4 @@
-// theme.js
+
 import { DefaultTheme, DarkTheme } from 'react-native-paper';
 
 export const lightTheme = {
@@ -18,7 +18,7 @@ export const lightTheme = {
   },
 };
 
-export const darkTheme = {
+export const isDarkTheme= {
   ...DarkTheme,
   colors: {
     ...DarkTheme.colors,
