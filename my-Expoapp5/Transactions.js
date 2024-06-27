@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     paddingBottom:10,
     paddingVertical: 20,
     paddingHorizontal: 15,
-    backgroundColor: '#fff', 
+    backgroundColor: '#fff',
     marginBottom:0,
     
     
@@ -70,11 +70,13 @@ const styles = StyleSheet.create({
   transactionText: {
     fontSize: 26,
     fontWeight: 'bold',
+   
   },
   sellAllText: {
     fontSize: 23,
     color: 'dodgerblue',
     fontWeight:'bold',
+    color:'white',
     
   },
 
@@ -135,6 +137,7 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight:'bold',
     paddingLeft: 31,
+   
     
   },
 
@@ -144,6 +147,7 @@ const styles = StyleSheet.create({
     color: 'gray',
     paddingLeft: 31,
     paddingBottom:20,
+    
   },
 
 
@@ -168,6 +172,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     fontWeight:'bold',
     color:'dodgerblue',
+    
   },
 
 });

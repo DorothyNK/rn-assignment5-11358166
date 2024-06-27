@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
     paddingTop:14,
     paddingEnd:1,
     fontSize: 18,
+    
   },
 });
 

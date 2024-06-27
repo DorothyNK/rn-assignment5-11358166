@@ -73,3 +73,5 @@ The Screenshots of the App can be found below:
 ![alt text](my-Expoapp5/assets/Screenshot6.jpg)
 
 ![alt text](my-Expoapp5/assets/Screenshot7.jpg)
+
+![alt text](my-Expoapp5/assets/Screenshot8.jpg)

@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     paddingHorizontal: 15,
     backgroundColor: '#fff',
+    
   },
   roundedImage: {
     width: 80,
@@ -32,10 +33,12 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     flex: 1,
     
+    
   },
   mainText: {
     fontSize: 20,
     fontWeight: '200',
+   
   
   },
   subText: {
@@ -44,11 +47,13 @@ const styles = StyleSheet.create({
     fontWeight:'bold',
     paddingBottom:10,
     marginTop:6,
+   
   },
   searchIcon: {
     width: 38,
     height: 35,
     paddingLeft:10,
+   
   },
 });
 

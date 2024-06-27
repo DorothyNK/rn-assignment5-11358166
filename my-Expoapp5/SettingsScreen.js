@@ -68,9 +68,6 @@ const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
     paddingTop:25,
-    
-
-    
   },
   initialView: {
     height: 600, 
@@ -87,7 +84,6 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     paddingHorizontal: 15,
     backgroundColor: '#fff',
-  
   },
 
 
