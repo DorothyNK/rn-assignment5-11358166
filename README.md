@@ -47,7 +47,21 @@ Navigation: Implemented with React Navigation for seamless transitions between t
 
 Functionality: Incorporates state management for the theme switch functionality and handles user interactions such as button presses and theme changes.
 
-The Screenshots of the App are;
+A brief description of the Components been used in the App.
+
+View: The fundamental building block for UI elements. It groups other components and defines layout using props like flex, flexDirection, alignItems, justifyContent, and more.
+
+ScrollView: Enables scrolling functionality within a container. Useful for content that might exceed the size of the screen.
+
+Text: Displays textual content. Use props like fontSize, fontWeight, color, and fontFamily to style the text.
+
+StyleSheet: A central location to define styles (like colors, fonts, margins, padding) that can be applied consistently across your components. This promotes code reusability and maintainability.
+
+FlatList: Components for rendering large lists of data efficiently. Use FlatList for simple homogeneous lists. Define data (the list of items), renderItem (function to render each item), and keyExtractor (function to uniquely identify each item) for optimal performance.
+
+Image: Displays an image from a local file or remote URL. Use props like source (image path), resizeMode (how to scale the image), and style to make the image look exactly how you want it to look like.
+
+The Screenshots of the App can be found below:
 ![alt text](my-Expoapp5/assets/Screenshot1.jpg)
 
 ![alt text](my-Expoapp5/assets/Screenshot2.jpg)
@@ -55,3 +69,7 @@ The Screenshots of the App are;
 ![alt text](my-Expoapp5/assets/Screenshot3.jpg)
 
 ![alt text](my-Expoapp5/assets/Screenshot5.jpg)
+
+![alt text](my-Expoapp5/assets/Screenshot6.jpg)
+
+![alt text](my-Expoapp5/assets/Screenshot7.jpg)
